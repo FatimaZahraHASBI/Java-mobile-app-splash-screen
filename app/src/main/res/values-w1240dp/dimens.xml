@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="headerTextSize">214sp</dimen>
+    <dimen name="newsMoreTextSize">196sp</dimen>
+    <dimen name="loginCardRadius">204dp</dimen>
+    <dimen name="loginViewsMargin">204dp</dimen>
+
+    <dimen name="signup_text_margin_top">194dp</dimen>
+</resources>
