@@ -8,23 +8,23 @@
     android:background="@drawable/login_bk"
     android:contentDescription="@string/app_name"
     android:focusableInTouchMode="true"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".LoginActivity">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="197dp"
-        android:layout_height="76dp"
+        android:layout_width="216dp"
+        android:layout_height="59dp"
         android:text="@string/LOGIN"
         android:textColor="#3547AE"
-        android:textSize="50dp"
+        android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.828"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.902" />
+        app:layout_constraintVertical_bias="0.94" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -40,6 +40,7 @@
         android:ems="10"
         android:hint="@string/login_email_hint"
         android:inputType="textPersonName"
+        android:textAlignment="viewStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +53,7 @@
         android:layout_height="76dp"
         android:ems="10"
         android:hint="@string/login_password_hint"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,16 +61,36 @@
         app:layout_constraintVertical_bias="0.014" />
 
     <Button
-        android:id="@+id/cirLoginButton"
+        android:id="@+id/btn_login"
         android:layout_width="178dp"
         android:layout_height="70dp"
         android:layout_gravity="right"
-        android:text="Login"
+        android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_bias="0.785"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/toast_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emptyvalues"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="251dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

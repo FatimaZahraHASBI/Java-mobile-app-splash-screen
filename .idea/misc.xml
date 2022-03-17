@@ -3,15 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.162" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/drawable-v24/login_button_bk.xml" value="0.1875" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/drawable/ic_hello_rafiki.xml" value="0.166" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1875" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.298046875" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout-w936dp/activity_login.xml" value="0.180078125" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout/activity_splash.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/layout/layout_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/zertyui/MyLocalFiles/Mobile-app-projects/tp2splashScreenloginStatic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.162" />
       </map>
     </option>
   </component>
